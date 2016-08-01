@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -159,10 +159,10 @@
 <wire x1="20.32" y1="10.16" x2="0" y2="10.16" width="0.2032" layer="20"/>
 <wire x1="0" y1="10.16" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="0.889" y="2.413" size="1.27" layer="21" font="vector" ratio="15">1</text>
-<text x="17.399" y="5.08" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center">SSOP16
+<text x="16.637" y="5.08" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center">SSOP16
 to
 DIP16</text>
-<text x="17.399" y="5.08" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center">SSOP16
+<text x="16.637" y="5.08" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center">SSOP16
 to
 DIP16</text>
 <text x="1.651" y="2.413" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">1</text>
@@ -180,10 +180,10 @@ DIP16</text>
 <wire x1="-0.508" y1="10.922" x2="0" y2="10.414" width="0.2032" layer="20"/>
 <wire x1="-1.524" y1="10.414" x2="0" y2="10.414" width="0.2032" layer="20"/>
 <text x="-9.906" y="9.906" size="1.27" layer="20" font="vector" ratio="15">V-Score</text>
-<text x="17.399" y="15.748" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center">SSOP16
+<text x="16.637" y="15.748" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center">SSOP16
 to
 DIP16</text>
-<text x="17.399" y="15.748" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center">SSOP16
+<text x="16.637" y="15.748" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center">SSOP16
 to
 DIP16</text>
 <dimension x1="0" y1="0" x2="0" y2="10.16" x3="-7.112" y3="5.08" textsize="1.27" textratio="15" layer="20" unit="inch" visible="yes"/>
@@ -200,6 +200,10 @@ DIP16</text>
 PCB &amp; DIP features in inches;
 SSOP footprint in mm.</text>
 <dimension x1="3.81" y1="19.558" x2="1.27" y2="19.558" x3="2.54" y3="29.972" textsize="1.27" textratio="15" layer="20" unit="inch" visible="yes"/>
+<text x="18.669" y="6.477" size="1.27" layer="21" font="vector" ratio="15">9</text>
+<text x="19.431" y="6.477" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">9</text>
+<text x="18.669" y="17.145" size="1.27" layer="21" font="vector" ratio="15">9</text>
+<text x="19.431" y="17.145" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">9</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -282,6 +286,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.8" y="0.1" size="0.3048" layer="27">&gt;Value</text>
 <circle x="-3.048" y="-2.286" radius="0.254" width="0" layer="21"/>
 <wire x1="-2.45" y1="0.508" x2="-2.45" y2="-0.508" width="0.127" layer="21" curve="-180"/>
+<rectangle x1="0.1925" y1="1.95" x2="0.4425" y2="3.01" layer="51"/>
+<rectangle x1="2.0975" y1="1.95" x2="2.3475" y2="3.01" layer="51"/>
+<rectangle x1="1.4625" y1="1.95" x2="1.7125" y2="3.01" layer="51"/>
+<rectangle x1="0.8275" y1="1.95" x2="1.0775" y2="3.01" layer="51"/>
+<rectangle x1="-0.4425" y1="1.95" x2="-0.1925" y2="3.01" layer="51"/>
+<rectangle x1="-1.0775" y1="1.95" x2="-0.8275" y2="3.01" layer="51"/>
+<rectangle x1="-1.7125" y1="1.95" x2="-1.4625" y2="3.01" layer="51"/>
+<rectangle x1="-2.3475" y1="1.95" x2="-2.0975" y2="3.01" layer="51"/>
+<rectangle x1="0.1925" y1="-3.01" x2="0.4425" y2="-1.95" layer="51"/>
+<rectangle x1="2.0975" y1="-3.01" x2="2.3475" y2="-1.95" layer="51"/>
+<rectangle x1="1.4625" y1="-3.01" x2="1.7125" y2="-1.95" layer="51"/>
+<rectangle x1="0.8275" y1="-3.01" x2="1.0775" y2="-1.95" layer="51"/>
+<rectangle x1="-0.4425" y1="-3.01" x2="-0.1925" y2="-1.95" layer="51"/>
+<rectangle x1="-1.0775" y1="-3.01" x2="-0.8275" y2="-1.95" layer="51"/>
+<rectangle x1="-1.7125" y1="-3.01" x2="-1.4625" y2="-1.95" layer="51"/>
+<rectangle x1="-2.3475" y1="-3.01" x2="-2.0975" y2="-1.95" layer="51"/>
 </package>
 </packages>
 </library>

@@ -1029,6 +1029,22 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="-1.8" y="0.1" size="0.3048" layer="27">&gt;Value</text>
 <circle x="-3.048" y="-2.286" radius="0.254" width="0" layer="21"/>
 <wire x1="-2.45" y1="0.508" x2="-2.45" y2="-0.508" width="0.127" layer="21" curve="-180"/>
+<rectangle x1="0.1925" y1="1.95" x2="0.4425" y2="3.01" layer="51"/>
+<rectangle x1="2.0975" y1="1.95" x2="2.3475" y2="3.01" layer="51"/>
+<rectangle x1="1.4625" y1="1.95" x2="1.7125" y2="3.01" layer="51"/>
+<rectangle x1="0.8275" y1="1.95" x2="1.0775" y2="3.01" layer="51"/>
+<rectangle x1="-0.4425" y1="1.95" x2="-0.1925" y2="3.01" layer="51"/>
+<rectangle x1="-1.0775" y1="1.95" x2="-0.8275" y2="3.01" layer="51"/>
+<rectangle x1="-1.7125" y1="1.95" x2="-1.4625" y2="3.01" layer="51"/>
+<rectangle x1="-2.3475" y1="1.95" x2="-2.0975" y2="3.01" layer="51"/>
+<rectangle x1="0.1925" y1="-3.01" x2="0.4425" y2="-1.95" layer="51"/>
+<rectangle x1="2.0975" y1="-3.01" x2="2.3475" y2="-1.95" layer="51"/>
+<rectangle x1="1.4625" y1="-3.01" x2="1.7125" y2="-1.95" layer="51"/>
+<rectangle x1="0.8275" y1="-3.01" x2="1.0775" y2="-1.95" layer="51"/>
+<rectangle x1="-0.4425" y1="-3.01" x2="-0.1925" y2="-1.95" layer="51"/>
+<rectangle x1="-1.0775" y1="-3.01" x2="-0.8275" y2="-1.95" layer="51"/>
+<rectangle x1="-1.7125" y1="-3.01" x2="-1.4625" y2="-1.95" layer="51"/>
+<rectangle x1="-2.3475" y1="-3.01" x2="-2.0975" y2="-1.95" layer="51"/>
 </package>
 </packages>
 <symbols>
