@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -159,12 +159,12 @@
 <wire x1="20.32" y1="10.16" x2="0" y2="10.16" width="0.2032" layer="20"/>
 <wire x1="0" y1="10.16" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="0.889" y="2.413" size="1.27" layer="21" font="vector" ratio="15">1</text>
-<text x="16.637" y="5.08" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center">SSOP16
+<text x="16.637" y="5.08" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center">SSOP 16
 to
-DIP16</text>
-<text x="16.637" y="5.08" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center">SSOP16
+DIP 16</text>
+<text x="16.637" y="5.588" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center">SSOP 16
 to
-DIP16</text>
+DIP 16</text>
 <text x="1.651" y="2.413" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">1</text>
 <text x="10.922" y="-20.828" size="1.778" layer="51" font="vector" ratio="15">Byron Jacquot</text>
 <wire x1="0" y1="6.35" x2="0" y2="3.81" width="0.127" layer="21" curve="-180"/>
@@ -180,30 +180,31 @@ DIP16</text>
 <wire x1="-0.508" y1="10.922" x2="0" y2="10.414" width="0.2032" layer="20"/>
 <wire x1="-1.524" y1="10.414" x2="0" y2="10.414" width="0.2032" layer="20"/>
 <text x="-9.906" y="9.906" size="1.27" layer="20" font="vector" ratio="15">V-Score</text>
-<text x="16.637" y="15.748" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center">SSOP16
+<text x="16.637" y="15.748" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center">SSOP 16
 to
-DIP16</text>
-<text x="16.637" y="15.748" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center">SSOP16
+DIP 16</text>
+<text x="16.637" y="16.256" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center">SSOP 16
 to
-DIP16</text>
-<dimension x1="0" y1="0" x2="0" y2="10.16" x3="-7.112" y3="5.08" textsize="1.27" textratio="15" layer="20" unit="inch" visible="yes"/>
-<dimension x1="0" y1="0" x2="0" y2="20.828" x3="-10.668" y3="10.414" textsize="1.27" textratio="15" layer="20" unit="inch" visible="yes"/>
-<dimension x1="0" y1="0" x2="20.32" y2="0" x3="10.16" y3="-4.318" textsize="1.27" textratio="15" layer="20" unit="inch" visible="yes"/>
-<dimension x1="1.27" y1="1.27" x2="1.27" y2="8.89" x3="-3.048" y3="5.08" textsize="1.27" textratio="15" layer="20" unit="inch" visible="yes"/>
-<dimension x1="13.36" y1="17.9705" x2="13.36" y2="17.3355" x3="24.495" y3="17.653" textsize="1.27" textratio="15" layer="20" precision="3" visible="yes"/>
-<dimension x1="14.36" y1="13.69" x2="14.36" y2="13.34" x3="29.495" y3="13.515" textsize="1.27" textratio="15" layer="20" precision="3" visible="yes"/>
-<dimension x1="8.055" y1="18.288" x2="12.25" y2="18.288" x3="10.1525" y3="21.59" textsize="1.27" textratio="15" layer="20" visible="yes"/>
-<dimension x1="5.862" y1="18.16" x2="14.4572" y2="18.161" x3="10.158803125" y3="25.019028125" textsize="1.27" textratio="15" layer="20" visible="yes"/>
+DIP 16</text>
+<dimension x1="0" y1="0" x2="0" y2="10.16" x3="-7.112" y3="5.08" textsize="1.27" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="0" y1="0" x2="0" y2="20.828" x3="-10.668" y3="10.414" textsize="1.27" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="0" y1="0" x2="20.32" y2="0" x3="10.16" y3="-4.318" textsize="1.27" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="1.27" y1="1.27" x2="1.27" y2="8.89" x3="-3.048" y3="5.08" textsize="1.27" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="13.36" y1="17.9705" x2="13.36" y2="17.3355" x3="24.495" y3="17.653" textsize="1.27" textratio="15" layer="47" precision="3" visible="yes"/>
+<dimension x1="14.36" y1="13.69" x2="14.36" y2="13.34" x3="29.495" y3="13.515" textsize="1.27" textratio="15" layer="47" precision="3" visible="yes"/>
+<dimension x1="8.055" y1="18.288" x2="12.25" y2="18.288" x3="10.1525" y3="21.59" textsize="1.27" textratio="15" layer="47" visible="yes"/>
+<dimension x1="5.862" y1="18.16" x2="14.4572" y2="18.161" x3="10.158803125" y3="25.019028125" textsize="1.27" textratio="15" layer="47" visible="yes"/>
 <text x="0.889" y="13.081" size="1.27" layer="21" font="vector" ratio="15">1</text>
 <text x="1.651" y="13.081" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">1</text>
 <text x="-5.08" y="-12.446" size="1.27" layer="20" font="vector" ratio="15">Dimensional units as marked.
 PCB &amp; DIP features in inches;
 SSOP footprint in mm.</text>
-<dimension x1="3.81" y1="19.558" x2="1.27" y2="19.558" x3="2.54" y3="29.972" textsize="1.27" textratio="15" layer="20" unit="inch" visible="yes"/>
+<dimension x1="3.81" y1="19.558" x2="1.27" y2="19.558" x3="2.54" y3="29.972" textsize="1.27" textratio="15" layer="47" unit="inch" visible="yes"/>
 <text x="18.669" y="6.477" size="1.27" layer="21" font="vector" ratio="15">9</text>
 <text x="19.431" y="6.477" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">9</text>
 <text x="18.669" y="17.145" size="1.27" layer="21" font="vector" ratio="15">9</text>
 <text x="19.431" y="17.145" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">9</text>
+<text x="0.635" y="2.921" size="1.016" layer="16" font="vector" ratio="25" rot="MR90">V01</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
