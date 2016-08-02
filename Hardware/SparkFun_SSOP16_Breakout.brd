@@ -204,7 +204,7 @@ SSOP footprint in mm.</text>
 <text x="19.431" y="6.477" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">9</text>
 <text x="18.669" y="17.145" size="1.27" layer="21" font="vector" ratio="15">9</text>
 <text x="19.431" y="17.145" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">9</text>
-<text x="0.635" y="2.921" size="1.016" layer="16" font="vector" ratio="25" rot="MR90">V01</text>
+<text x="0.635" y="2.921" size="1.016" layer="16" font="vector" ratio="25" rot="MR90">V20</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
