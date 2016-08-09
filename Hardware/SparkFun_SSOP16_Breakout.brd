@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -205,8 +205,8 @@ SSOP footprint in mm.</text>
 <text x="18.669" y="17.145" size="1.27" layer="21" font="vector" ratio="15">9</text>
 <text x="19.431" y="17.145" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">9</text>
 <text x="0.635" y="3.937" size="1.016" layer="16" font="vector" ratio="25" rot="MR90">V20</text>
-<wire x1="0" y1="13.97" x2="0" y2="16.51" width="0.127" layer="22" curve="180"/>
-<wire x1="0" y1="16.51" x2="0" y2="13.97" width="0.127" layer="21" curve="-180"/>
+<wire x1="0" y1="14.478" x2="0" y2="17.018" width="0.127" layer="22" curve="180"/>
+<wire x1="0" y1="17.018" x2="0" y2="14.478" width="0.127" layer="21" curve="-180"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
