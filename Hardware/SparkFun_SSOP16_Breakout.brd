@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -196,7 +196,7 @@ DIP 16</text>
 <dimension x1="5.862" y1="18.16" x2="14.4572" y2="18.161" x3="10.158803125" y3="25.019028125" textsize="1.27" textratio="15" layer="47" visible="yes"/>
 <text x="0.889" y="13.081" size="1.27" layer="21" font="vector" ratio="15">1</text>
 <text x="1.651" y="13.081" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">1</text>
-<text x="-5.08" y="-12.446" size="1.27" layer="20" font="vector" ratio="15">Dimensional units as marked.
+<text x="-5.08" y="-12.446" size="1.27" layer="47" font="vector" ratio="15">Dimensional units as marked.
 PCB &amp; DIP features in inches;
 SSOP footprint in mm.</text>
 <dimension x1="3.81" y1="19.558" x2="1.27" y2="19.558" x3="2.54" y3="29.972" textsize="1.27" textratio="15" layer="47" unit="inch" visible="yes"/>
