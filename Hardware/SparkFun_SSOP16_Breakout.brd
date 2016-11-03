@@ -31,8 +31,8 @@
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,19 +46,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -204,7 +204,7 @@ SSOP footprint in mm.</text>
 <text x="19.431" y="6.477" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">9</text>
 <text x="18.669" y="17.145" size="1.27" layer="21" font="vector" ratio="15">9</text>
 <text x="19.431" y="17.145" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">9</text>
-<text x="0.635" y="3.937" size="1.016" layer="16" font="vector" ratio="25" rot="MR90">V20</text>
+<text x="0.635" y="3.937" size="1.016" layer="16" font="vector" ratio="25" rot="MR90">V21</text>
 <wire x1="0" y1="14.478" x2="0" y2="17.018" width="0.127" layer="22" curve="180"/>
 <wire x1="0" y1="17.018" x2="0" y2="14.478" width="0.127" layer="21" curve="-180"/>
 <wire x1="18.796" y1="16.764" x2="19.558" y2="16.764" width="0.254" layer="21"/>
@@ -267,12 +267,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="generic-ssop16">
 <packages>
 <package name="SSOP16">
-<wire x1="2.45" y1="1.95" x2="-2.45" y2="1.95" width="0.127" layer="21"/>
-<wire x1="2.45" y1="-1.95" x2="-2.45" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-2.45" y1="1.95" x2="-2.45" y2="0.508" width="0.127" layer="21"/>
-<wire x1="-2.45" y1="-0.508" x2="-2.45" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="2.45" y1="1.95" x2="2.45" y2="-1.95" width="0.127" layer="21"/>
-<circle x="-1.82" y="-1.23" radius="0.3538" width="0.127" layer="21"/>
+<wire x1="2.45" y1="1.95" x2="-2.45" y2="1.95" width="0.2032" layer="21"/>
+<wire x1="2.45" y1="-1.95" x2="-2.45" y2="-1.95" width="0.2032" layer="21"/>
+<wire x1="-2.45" y1="1.95" x2="-2.45" y2="0.508" width="0.2032" layer="21"/>
+<wire x1="-2.45" y1="-0.508" x2="-2.45" y2="-1.95" width="0.2032" layer="21"/>
+<wire x1="2.45" y1="1.95" x2="2.45" y2="-1.95" width="0.2032" layer="21"/>
+<circle x="-1.82" y="-1.23" radius="0.3538" width="0.2032" layer="21"/>
 <smd name="P$1" x="-2.2225" y="-3.2" dx="0.35" dy="2.2" layer="1"/>
 <smd name="P$2" x="-1.5875" y="-3.2" dx="0.35" dy="2.2" layer="1"/>
 <smd name="P$3" x="-0.9525" y="-3.2" dx="0.35" dy="2.2" layer="1"/>
@@ -292,7 +292,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.8" y="0.9" size="0.3048" layer="25">&gt;Name</text>
 <text x="-1.8" y="0.1" size="0.3048" layer="27">&gt;Value</text>
 <circle x="-3.048" y="-2.286" radius="0.254" width="0" layer="21"/>
-<wire x1="-2.45" y1="0.508" x2="-2.45" y2="-0.508" width="0.127" layer="21" curve="-180"/>
+<wire x1="-2.45" y1="0.508" x2="-2.45" y2="-0.508" width="0.2032" layer="21" curve="-180"/>
 <rectangle x1="0.1925" y1="1.95" x2="0.4425" y2="3.01" layer="51"/>
 <rectangle x1="2.0975" y1="1.95" x2="2.3475" y2="3.01" layer="51"/>
 <rectangle x1="1.4625" y1="1.95" x2="1.7125" y2="3.01" layer="51"/>

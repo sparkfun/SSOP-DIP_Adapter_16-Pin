@@ -1003,12 +1003,12 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <library name="generic-ssop16">
 <packages>
 <package name="SSOP16">
-<wire x1="2.45" y1="1.95" x2="-2.45" y2="1.95" width="0.127" layer="21"/>
-<wire x1="2.45" y1="-1.95" x2="-2.45" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-2.45" y1="1.95" x2="-2.45" y2="0.508" width="0.127" layer="21"/>
-<wire x1="-2.45" y1="-0.508" x2="-2.45" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="2.45" y1="1.95" x2="2.45" y2="-1.95" width="0.127" layer="21"/>
-<circle x="-1.82" y="-1.23" radius="0.3538" width="0.127" layer="21"/>
+<wire x1="2.45" y1="1.95" x2="-2.45" y2="1.95" width="0.2032" layer="21"/>
+<wire x1="2.45" y1="-1.95" x2="-2.45" y2="-1.95" width="0.2032" layer="21"/>
+<wire x1="-2.45" y1="1.95" x2="-2.45" y2="0.508" width="0.2032" layer="21"/>
+<wire x1="-2.45" y1="-0.508" x2="-2.45" y2="-1.95" width="0.2032" layer="21"/>
+<wire x1="2.45" y1="1.95" x2="2.45" y2="-1.95" width="0.2032" layer="21"/>
+<circle x="-1.82" y="-1.23" radius="0.3538" width="0.2032" layer="21"/>
 <smd name="P$1" x="-2.2225" y="-3.2" dx="0.35" dy="2.2" layer="1"/>
 <smd name="P$2" x="-1.5875" y="-3.2" dx="0.35" dy="2.2" layer="1"/>
 <smd name="P$3" x="-0.9525" y="-3.2" dx="0.35" dy="2.2" layer="1"/>
@@ -1028,7 +1028,7 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="-1.8" y="0.9" size="0.3048" layer="25">&gt;Name</text>
 <text x="-1.8" y="0.1" size="0.3048" layer="27">&gt;Value</text>
 <circle x="-3.048" y="-2.286" radius="0.254" width="0" layer="21"/>
-<wire x1="-2.45" y1="0.508" x2="-2.45" y2="-0.508" width="0.127" layer="21" curve="-180"/>
+<wire x1="-2.45" y1="0.508" x2="-2.45" y2="-0.508" width="0.2032" layer="21" curve="-180"/>
 <rectangle x1="0.1925" y1="1.95" x2="0.4425" y2="3.01" layer="51"/>
 <rectangle x1="2.0975" y1="1.95" x2="2.3475" y2="3.01" layer="51"/>
 <rectangle x1="1.4625" y1="1.95" x2="1.7125" y2="3.01" layer="51"/>
@@ -8398,7 +8398,7 @@ for the logo on the board is tSilk.</description>
 <sheets>
 <sheet>
 <plain>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">V20</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">V21</text>
 <text x="165.1" y="7.62" size="2.54" layer="94" font="vector">Byron Jacquot</text>
 </plain>
 <instances>
